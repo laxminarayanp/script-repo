@@ -1,4 +1,4 @@
 #!/bin/bash
-echo `date` > /root/testrun.txt
-echo $HOSTNAME >> /root/testrun.txt
-echo $UID >> /root/testrun.txt
+echo `date` > /tmp/testrun.txt
+echo $HOSTNAME >> /tmp/testrun.txt
+echo $UID >> /tmp/testrun.txt
